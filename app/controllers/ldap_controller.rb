@@ -48,11 +48,11 @@ class LdapController < ApplicationController
         end
     end
 end
-
-    class ObjAuth
-        def initialize(email, password, answer)
-            @email = email
-            @password = password
-            @answer = answer
-        end
+    
+class ObjAuth
+    def initialize(email, password, answer)
+        @email = email
+        @password = password
+        @answer = answer
     end
+end
